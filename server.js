@@ -6,8 +6,10 @@ mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/mern",
   {
     useMongoClient: true
+    //{ useNewUrlParser: true } to MongoClient.connect
   }
 );
+
 app.get('/', (req, res) => {
   res.send("Hello World!");
 });
