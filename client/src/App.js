@@ -1,15 +1,6 @@
-import React, { Component } from 'react';
+import React from "react";
+import Container from "./Container";
 
-import './App.css';
-
-class App extends Component {
-  render() {
-    return (
-      <div className="welcome">
-       Hello to all coders!
-      </div>
-    );
-  }
-}
+const App = () => <Container />;
 
 export default App;
