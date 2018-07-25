@@ -5,7 +5,7 @@ const About = () => (
   <div>
     <h1>About Page</h1>
     <p>
-     My name is jesse. weedsz.
+     My name is jesse. 
     </p>
   </div>
 );
