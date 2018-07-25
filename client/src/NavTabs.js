@@ -14,22 +14,12 @@ const NavTabs = props => (
     </li>
     <li className="nav-item">
       <a
-        onClick={() => props.handlePageChange("About")}
-        className={
-          props.currentPage === "About" ? "nav-link active" : "nav-link"
-        }
-      >
-        About
-      </a>
-    </li>
-    <li className="nav-item">
-      <a
         onClick={() => props.handlePageChange("Portfolio")}
         className={
           props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"
         }
       >
-        Blog
+        Portfolio
       </a>
     </li>
     <li className="nav-item">
@@ -39,7 +29,17 @@ const NavTabs = props => (
           props.currentPage === "Schedule" ? "nav-link active" : "nav-link"
         }
       >
-        Contact
+       Schedule
+      </a>
+    </li>
+    <li className="nav-item">
+      <a
+        onClick={() => props.handlePageChange("About")}
+        className={
+          props.currentPage === "About" ? "nav-link active" : "nav-link"
+        }
+      >
+       About
       </a>
     </li>
   </ul>
