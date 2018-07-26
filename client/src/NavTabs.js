@@ -1,7 +1,7 @@
 import React from "react";
 
 const NavTabs = props => (
-  <ul className="nav nav-tabs">
+  <ul className="nav navbar">
     <li className="nav-item">
       <a
         onClick={() => props.handlePageChange("Home")}
