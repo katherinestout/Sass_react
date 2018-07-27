@@ -25,7 +25,7 @@ const NavTabs = props => (
           props.currentPage === "Schedule" ? "nav-link active" : "nav-link"
         }
       >
-       Schedule
+       Services
       </a>
     </li>
     <li className="nav-item">

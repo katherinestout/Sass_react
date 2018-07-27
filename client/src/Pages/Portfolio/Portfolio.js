@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../../Components/Footer";
+//import Footer from "../../Components/Footer";
 import katiedit from "./../../Stylesheets/PageStyle/Portfolio/Photos/1katiedit.jpg";
 import cat from "./../../Stylesheets/PageStyle/Portfolio/Photos/cat1.jpg";
 import emily from "./../../Stylesheets/PageStyle/Portfolio/Photos/emily5.jpg";
@@ -36,7 +36,7 @@ const Portfolio = () => (
     </div>
   
 </div> 
-<Footer/>
+
 </div>
 );
 
