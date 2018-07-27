@@ -1,3 +1,22 @@
-body{
-    background: whitesmoke;
+
+@mixin height($tall) {
+    -webkit-height: $tall;
+    -moz-height: $tall;
+    -ms-height: $tall;
+    height: $tall;
+    
+}
+
+.Aboutform{
+    margin-top: 100px;
+    margin-left: 300px;
+    label, input {
+        margin: 10px;
+    }
+    .textarea{
+        width: 400px;
+        
+        @include height(300px);
+       
+    }
 }

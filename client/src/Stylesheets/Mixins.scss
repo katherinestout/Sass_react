@@ -1,0 +1,14 @@
+@mixin height($tall) {
+    -webkit-height: $tall;
+    -moz-height: $tall;
+    -ms-height: $tall;
+    height: $tall;
+    
+}
+@mixin width($wide) {
+    -webkit-height: $wide;
+    -moz-height: $wide;
+    -ms-height: $wide;
+    height: $wide;
+    
+}

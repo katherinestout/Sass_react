@@ -1,17 +1,13 @@
 import React from "react";
 
 const NavTabs = props => (
+  <div className = "thisthis">
+
+ 
+  
   <ul className="nav navbar">
-    <li className="nav-item">
-      <a
-        onClick={() => props.handlePageChange("Home")}
-        className={
-          props.currentPage === "Home" ? "nav-link active" : "nav-link"
-        }
-      >
-        Home
-      </a>
-    </li>
+
+ 
     <li className="nav-item">
       <a
         onClick={() => props.handlePageChange("Portfolio")}
@@ -39,10 +35,11 @@ const NavTabs = props => (
           props.currentPage === "About" ? "nav-link active" : "nav-link"
         }
       >
-       About
+       Contact
       </a>
     </li>
   </ul>
+  </div>
 );
 
 export default NavTabs;

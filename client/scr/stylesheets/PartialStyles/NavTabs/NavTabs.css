@@ -1,6 +1,15 @@
-.nav {
-  background: transparent;
-  position: absolute;
-  bottom: 0px;
+.thisthis {
+  background-color: white;
+  opacity: 0.3;
+  height: 80px;
+  position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
-  margin: 0px; }
+  margin: 0px;
+  text-align: center;
+  font-family: 'Bilbo', cursive;
+  font-size: 30px; }
+  .thisthis .nav {
+    margin-right: 450px;
+    margin-left: 450px; }

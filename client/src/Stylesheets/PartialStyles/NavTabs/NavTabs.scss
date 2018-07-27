@@ -1,8 +1,25 @@
-.nav {
-    background: white;
-    position: static;
-    top: 0px;
+
+
+
+.thisthis {
+
+    background-color: white;
+    opacity: 0.3; 
+    height: 80px; 
+   //@include height(80px);
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
-    height: 50px;
     margin: 0px;
+    text-align: center;
+    font-family: 'Bilbo', cursive;
+    font-size: 30px;
+
+.nav { margin-right: 450px;
+    margin-left: 450px; 
+   
 }
+
+}
+

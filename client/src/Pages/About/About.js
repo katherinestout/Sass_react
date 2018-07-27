@@ -1,13 +1,16 @@
 import React from "react";
-//import "./About.css";
+import AboutForm from "./AboutForm";
+import Footer from "../../Components/Footer";
+
 
 const About = () => (
-  <div>
-    <h1>About Page</h1>
-    <p>
-     My name is jesse. 
-    </p>
-  </div>
+<div>
+  <div className="Aboutform">
+<AboutForm/>
+<Footer/> 
+</div>
+
+</div>
 );
 
 export default About;

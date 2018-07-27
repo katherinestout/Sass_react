@@ -1,4 +1,5 @@
 .jumbotron-fluid img {
   height: auto;
   width: 100%;
+  top: 0;
   display: relative; }
