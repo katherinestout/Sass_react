@@ -1,6 +1,8 @@
 .Aboutform {
   margin-top: 100px;
-  margin-left: 300px; }
+  margin-left: 300px;
+  margin-bottom: 200px;
+  width: 400px; }
   .Aboutform label, .Aboutform input {
     margin: 10px; }
   .Aboutform .textarea {
@@ -9,3 +11,14 @@
     -moz-height: 300px;
     -ms-height: 300px;
     height: 300px; }
+
+.AboutCard {
+  float: right;
+  width: 260px;
+  height: 400px;
+  margin-top: 100px;
+  margin-right: 300px;
+  padding: 20px; }
+
+.me {
+  width: 220px; }
